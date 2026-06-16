@@ -1,0 +1,27 @@
+# packaging/lumina.desktop
+
+[Desktop Entry]
+
+Version=1.0
+
+Type=Application
+
+Name=Lumina
+
+GenericName=Monitor Control
+
+Comment=Brightness and monitor controls
+
+Exec=lumina
+
+Icon=lumina
+
+Terminal=false
+
+Categories=Utility;Settings;
+
+StartupNotify=true
+
+Keywords=brightness;monitor;display;contrast;
+
+StartupWMClass=Lumina

@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: lumina-monitor
+Version: 0.1.0
+Summary: Modern Linux monitor brightness and contrast control widget
+Author: Ramakrishna Reddy Palle
+License: MIT
+Project-URL: Homepage, https://github.com/RamakrishnaReddyPallelumina
+Project-URL: Repository, https://github.com/RamakrishnaReddyPalle/lumina
+Project-URL: Issues, https://github.com/RamakrishnaReddyPalle/lumina/issues
+Keywords: linux,monitor,brightness,ddcutil,display,desktop,qt,pyqt
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt6>=6.6
+Requires-Dist: psutil>=5.9
+Requires-Dist: pynput>=1.7
+Dynamic: license-file

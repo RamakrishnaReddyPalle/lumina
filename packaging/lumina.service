@@ -1,0 +1,21 @@
+# packaging/lumina.service
+
+[Unit]
+
+Description=Lumina Monitor Control
+
+After=graphical-session.target
+
+[Service]
+
+Type=simple
+
+ExecStart=%h/.local/bin/lumina
+
+Restart=on-failure
+
+RestartSec=3
+
+[Install]
+
+WantedBy=default.target
